@@ -1,0 +1,335 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  /* border-box box model allows us to add padding and border to our elements without increasing their size */
+  box-sizing: border-box;
+  /* A system font stack so things load nice and quick! */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 14px;
+}
+
+/*
+  WAT IS THIS?!
+  We inherit box-sizing: border-box; from our <html> selector
+  Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
+*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+ /* font-family: ; */
+ text-align: center;
+ line-height: 1.4;
+ max-width: 100%;
+}
+
+.start{
+    background: skyblue;
+    max-width: 100%;
+    height: 15%;
+}
+.navbars{
+    list-style: none;
+    display: flex;
+  }
+.navimg1{
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin:2% 0 2% 10%;
+    display: inline;
+}
+.navimg2{
+    width: 50px;
+    height: 50px;
+    margin:2% 0 2% 600px;
+    }
+.navimg3{
+    width: 50px;
+    height: 50px;
+    margin:2% 0 2% 400px;
+}
+ .bgimage-details {
+  background: url(img1.jpg);
+  max-width: 100%;
+  height: 25rem;
+ }
+
+ .findhotel{
+   color: #ffff;
+ }
+
+ .hotel{
+  padding-top: 7%;
+ }
+ 
+ .form-grid {
+  position: sticky;
+  top: 0;
+  margin-top: -5%;
+}
+
+ .form {
+   background: #fff;
+   box-shadow: 0 4px 15px rgba(0,0,0,.2);
+   margin: 0% 17%;
+   margin-bottom: 35px;
+ }
+
+ .form-input {
+   border: 1px solid grey;
+  padding: 10px 10px 10px 40px;
+  margin: 45px 0px;
+  border-radius: 5px;
+  width: 35%;
+   }
+
+ .header-form-btn {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: skyblue;
+  color: #ffff;
+ }
+
+ .search {
+  padding-top: 11px;
+  padding-bottom: 14px;
+}
+
+.heading-text {
+  padding: 3em 0em;
+}
+
+.suggested-destination-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;
+  padding: 0% 18%;  
+}
+
+.destination-detail {
+  border: 1px solid skyblue;
+  padding: 20px 0px;
+}
+
+.destination-detail h3 {
+  padding-bottom: 5px;
+  color: skyblue;
+}
+
+.topdeal-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.257fr);
+    grid-gap: 2em;
+    width: 100%;
+    text-align: left;
+    padding-left: 220px;
+}
+
+.topdeal-grid-img {
+  width: 100%;
+}
+
+.topdeal-details {
+  border: 1px solid grey;
+  border-top: 0;
+  border-radius: 5px;
+  margin-top: -10px;
+  padding: 10px;
+}
+
+.topdeal-details h4 {
+  color: skyblue;
+}
+
+.popularcities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 0.257fr);
+  grid-gap: 2em;
+  width: 100%;
+  text-align: center;
+  padding-left: 220px;
+}
+
+.popularcities-grid-img {
+width: 100%;
+}
+
+.popularcities-details {
+  padding: 25%;
+}
+
+.popularcities-details h4 {
+  color: white;
+  font-size: 2rem;
+  }
+
+.popularcities-details p {
+  color: white;
+  font-size: 2rem;
+   }
+
+.popularcities-box1{
+  background: url(lagos_city1.jpg);
+  height: 17rem;
+  }
+
+.popularcities-box2{
+  background: url(abuja_city1.jpg);
+  height: 17rem;
+  }
+
+.popularcities-box3{
+  background: url(crossriver_city1.jpg);
+  height: 17rem;
+  }
+  
+.popularcities-box4{
+  background: url(port-harcourt_city1.jpg);
+  height: 17rem;
+   }
+
+.popularcities-box5{
+   background: url(owerri_city1.jpg);
+   height: 17rem;
+   }
+
+.popularcities-box6{
+   background: url(uyo_city1.jpg);
+   height: 17rem;
+    }
+    
+
+.states-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: left;
+  padding: 0px 226px;
+  grid-gap: 1em;
+}
+
+.form-grid-email {
+  background: #fafafa;
+  padding: 5% 5%;
+  margin-top: 5%;
+}
+
+.form-input-email {
+ border: 1px solid grey;
+ padding: 10px 10px 10px 40px;
+ margin: 45px 0px;
+ border-radius: 5px;
+ width: 35%;
+ }
+
+.header-form-butn {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: skyblue;
+  color: #ffff;
+ }
+
+ /* .svg-logo{
+   display: flex;
+   flex-direction: row;
+   padding: 30px;
+  
+ } */
+
+ .svg-logo{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  padding: 0px 226px;
+  margin-bottom: 40px;
+ }
+
+ .add-hotel-btn {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: skyblue;
+  color: #ffff;
+  }
+
+  .app-and-images {
+  background: #fafafa;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  padding: 0 226px;
+  padding-top: 10%;
+  margin-top: 60px;
+  }
+
+  .hotel-booking {
+    margin-top: 40%;
+    margin-left: 20%;
+    text-align: left;
+    }
+
+  .bookhotel {
+   margin-top: 1em;
+    }
+
+  .hotel-booking-img {
+    margin-top: 5%;
+    }
+
+
+ .top-footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: left;
+  padding: 0px 226px;
+  grid-gap: 1em;
+  margin-top: 5%;
+}
+
+.copyright{
+  margin-top: 5%;
+}
+
+
+.form-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 226px;
+  grid-gap: 1em;
+  background: darkblue;
+ }
+
+  .form-footer-details{
+    margin-top: 10%;
+  }
+
+  .form-footer-h3{
+   color: white;
+  }
+
+  .form-footer-p{
+   color: skyblue;
+  }
+
+  .footer-form-input {
+  border: 1px solid grey;
+  padding: 10px 0 10px 40px;
+  margin: 45px 0px;
+  border-radius: 5px;
+  width: 65%;
+   }
+
+ .footer-form-btn {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: skyblue;
+  color: #ffff;
+   }
