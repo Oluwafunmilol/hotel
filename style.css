@@ -15,7 +15,7 @@ html {
 }
 
 /*
-  WAT IS THIS?!
+  WAT IS THIS?!=
   We inherit box-sizing: border-box; from our <html> selector
   Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
 */
@@ -41,14 +41,14 @@ body {
     list-style: none;
     display: flex;
   }
-.navimg1{
+.logoimg{
     width: 100px;
     height: 50px;
     color: white;
     margin:2% 0 2% 10%;
     display: inline;
 }
-.navimg2{
+.whatsappicon{
     width: 50px;
     height: 50px;
     margin:2% 0 2% 600px;
@@ -296,6 +296,16 @@ width: 100%;
 
 .copyright{
   margin-top: 5%;
+}
+
+.NANTA_logo{
+width: 10%;
+height: 10%;
+}
+
+.Tourism-logo{
+  width: 10%;
+  height: 10%;
 }
 
 
