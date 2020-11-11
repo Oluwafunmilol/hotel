@@ -26,7 +26,6 @@ html {
 }
 
 body {
- /* font-family: ; */
  line-height: 1.4;
 }
 
@@ -59,10 +58,6 @@ body {
   height: 50px;
   border-radius: 30px;
   margin-top: -5px;
-  /* z-index: 1; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* display: inline-block; */
 }
 
 .currency {
