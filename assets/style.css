@@ -159,6 +159,7 @@ body {
   margin: 45px 0px;
   border-radius: 5px;
   width: 35%;
+  margin-left: 48px;
    }
 
  .header-form-btn {
@@ -320,7 +321,7 @@ width: 100%;
   border-radius: 5px;
   background: skyblue;
   color: #ffff;
-  margin-left: 600px;
+  margin-left: 680px;
    }
 
   .app-and-images {
@@ -434,7 +435,7 @@ width: 100%;
   }
   
   .Tourism-logo {
-    width: 80px;
+    width: 100px;
     }
 
     .small-uline{
