@@ -13,8 +13,8 @@ Forms must be filled to book an hotel.
 (https://github.com/Oluwafunmilol/hotel.git)
 
 ### Built with
-HTML
-CSS
+* HTML
+* CSS
 
 # Live Demo
 This is alive demo(https://raw.githack.com/Oluwafunmilol/hotel/main/index.html
