@@ -102,7 +102,7 @@ body {
 }
 
 .fa-user-circle {
-  color: skyblue;
+  /* color: skyblue; */
 }
 
 .size {
@@ -118,7 +118,8 @@ body {
  }
 
 .border-left {
-  border-left: 1px solid #000;
+  border-left: 1px solid white;
+
 }
 
 .flag{
